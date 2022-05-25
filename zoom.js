@@ -43,8 +43,8 @@ function websdkready() {
 		e.preventDefault();
 		clearError();
 		const meetConfig = {
-			apiKey: 'pd6UVm_wRaqyKO4jujVMmA', // Olhe o get-zoom-signature.php para mais informações
-			signatureEndpoint: 'get-zoom-signature.php',
+			apiKey: 'pd6UVm_wRaqyKO4jujVMmA', // Olhe o signature.php para mais informações
+			signatureEndpoint: 'signature.php',
 			meetingNumber: document.getElementById('meetingNumber').value.replace(/ /g, ''),
 			leaveUrl: 'http://localhost/?leave=true', // URL para onde o usuário será redirecionado quando clicar no botão de sair
 			userName: document.getElementById('userName').value,
